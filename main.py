@@ -18,8 +18,8 @@ while True:
   elif letter.lower() in evenS and number in oddN:
     print("The square is black.")
   elif letter.lower() in evenS and number in evenN:
-    print("The square is black.")
-  elif letter.lower() in oddS and number in evenN:
     print("The square is white.")
+  elif letter.lower() in oddS and number in evenN:
+    print("The square is black.")
   else:
     print("Letter has to be single letter or from a to h")
